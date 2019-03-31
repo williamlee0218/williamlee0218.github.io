@@ -172,7 +172,7 @@
 <meta property="og:image" content="https://williamlee0218.github.io/2019/03/06/FIFA19-Analysis/output_40_2.png">
 <meta property="og:image" content="https://williamlee0218.github.io/2019/03/06/FIFA19-Analysis/output_41_2.png">
 <meta property="og:image" content="https://williamlee0218.github.io/2019/03/06/FIFA19-Analysis/output_42_2.png">
-<meta property="og:updated_time" content="2019-03-16T18:03:24.536Z">
+<meta property="og:updated_time" content="2019-03-28T14:40:21.919Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="FIFA19-Analysis">
 <meta name="twitter:description" content="今天在Kaggle 看到一个关于FIFA19 的数据集，就跟着里面一个示范一路敲了下来，数据分析及可视化的指数就顺带着复习了一下。全部代码如下：（东西太多，就先把代码贴出来，还有一些可视化图片） 数据集下载地址：https://www.kaggle.com/karangadiya/fifa19 1234import numpy as npimport pandas as pd import mat">
@@ -455,7 +455,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-03-17 02:03:24" itemprop="dateModified" datetime="2019-03-17T02:03:24+08:00">2019-03-17</time>
+                <time title="修改时间：2019-03-28 22:40:21" itemprop="dateModified" datetime="2019-03-28T22:40:21+08:00">2019-03-28</time>
               
             
           </span>
@@ -534,7 +534,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">assert</span> data[<span class="string">'Skill Moves'</span>].notnull().all() <span class="comment"># It return nothing because nan values are dropped.</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">data[<span class="string">"Skill Moves"</span>].fillna(<span class="string">'empty'</span>,inplace = <span class="keyword">True</span>)</span><br></pre></td></tr></table></figure>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">assert</span> data[<span class="string">'Skill Moves'</span>].notnull().all()</span><br></pre></td></tr></table></figure>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Plotting all data </span></span><br><span class="line">data1 = data.loc[:,[<span class="string">"Age"</span>,<span class="string">"Overall"</span>,<span class="string">"Potential"</span>]]</span><br><span class="line">data1.plot()</span><br><span class="line"><span class="comment"># it is confusing</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Plotting all data </span></span><br><span class="line">data1 = data.loc[:,[<span class="string">"Age"</span>,<span class="string">"Overall"</span>,<span class="string">"Potential"</span>]]</span><br><span class="line">data1.plot()</span><br></pre></td></tr></table></figure>
 <p><img src="/2019/03/06/FIFA19-Analysis/output_37_1.png" alt></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># subplots</span></span><br><span class="line">data1.plot(subplots = <span class="keyword">True</span>)</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
 <p><img src="/2019/03/06/FIFA19-Analysis/output_38_0.png" alt></p>
@@ -596,7 +596,7 @@
   <p><span>本文标题:</span><a href="/2019/03/06/FIFA19-Analysis/">FIFA19-Analysis</a></p>
   <p><span>文章作者:</span><a href="/" title="访问 William Li 的个人博客">William Li</a></p>
   <p><span>发布时间:</span>2019年03月06日 - 20:13</p>
-  <p><span>最后更新:</span>2019年03月17日 - 02:03</p>
+  <p><span>最后更新:</span>2019年03月28日 - 22:40</p>
   <p><span>原始链接:</span><a href="/2019/03/06/FIFA19-Analysis/" title="FIFA19-Analysis">https://williamlee0218.github.io/2019/03/06/FIFA19-Analysis/</a>
     <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://williamlee0218.github.io/2019/03/06/FIFA19-Analysis/" aria-label="复制成功！"></i></span>
   </p>
@@ -739,7 +739,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">5</span>
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
