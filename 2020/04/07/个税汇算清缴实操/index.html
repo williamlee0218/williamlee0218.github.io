@@ -1,0 +1,1138 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh-CN">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+      
+    
+
+    
+  
+
+  
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Monda:300,300italic,400,400italic,700,700italic|Lobster Two:300,300italic,400,400italic,700,700italic|PT Mono:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext">
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.0.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.0.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.0.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.0.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.0.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.0.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="2019年度个人所得税汇算清缴逐步展开，“个人所得税”也第一时间登上了微博热搜。您准备好了么？ 虽然之前税务总局曾经发文，年收入12万以下的纳税人可以免予汇算清缴。但实际来看，即使在年入12万以下的纳税人中，也有相当一部分人是符合退税条件的。如果这部分人不主动进行汇算清缴申报并申请退税，应退的税款是不会自己退回的。因此，掌握自己是否能退税并及时申请，就非常重要了。">
+<meta name="keywords" content="Learning Note">
+<meta property="og:type" content="article">
+<meta property="og:title" content="个税汇算清缴实操">
+<meta property="og:url" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/index.html">
+<meta property="og:site_name" content="William&#39;s Blog">
+<meta property="og:description" content="2019年度个人所得税汇算清缴逐步展开，“个人所得税”也第一时间登上了微博热搜。您准备好了么？ 虽然之前税务总局曾经发文，年收入12万以下的纳税人可以免予汇算清缴。但实际来看，即使在年入12万以下的纳税人中，也有相当一部分人是符合退税条件的。如果这部分人不主动进行汇算清缴申报并申请退税，应退的税款是不会自己退回的。因此，掌握自己是否能退税并及时申请，就非常重要了。">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/1.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/2.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/3.png">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/4.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/5.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/6.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/7.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/8.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/9.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/10.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/11.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/12.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/13.png">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/14.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/15.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/16.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/17.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/18.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/19.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/20.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/21.png">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/22.png">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/23.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/24.webp">
+<meta property="og:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/25.webp">
+<meta property="og:updated_time" content="2020-04-07T13:46:54.695Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="个税汇算清缴实操">
+<meta name="twitter:description" content="2019年度个人所得税汇算清缴逐步展开，“个人所得税”也第一时间登上了微博热搜。您准备好了么？ 虽然之前税务总局曾经发文，年收入12万以下的纳税人可以免予汇算清缴。但实际来看，即使在年入12万以下的纳税人中，也有相当一部分人是符合退税条件的。如果这部分人不主动进行汇算清缴申报并申请退税，应退的税款是不会自己退回的。因此，掌握自己是否能退税并及时申请，就非常重要了。">
+<meta name="twitter:image" content="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/C:/Users/willi/Desktop/Myblog/source/_posts/个税汇算清缴实操/1.webp">
+
+
+
+
+
+
+  <link rel="canonical" href="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>个税汇算清缴实操 | William's Blog</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+    
+<a href="https://github.com/williamlee0218" class="github-corner" aria-label="Fork me on GitHub"><svg width="80" height="80" viewbox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"/><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"/><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"/></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">William's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>首页</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>关于我</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>标签</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>归档</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="William Li">
+      <meta itemprop="description" content="一点一滴，汇聚成海">
+      <meta itemprop="image" content="/images/header.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="William's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">个税汇算清缴实操
+
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2020-04-07 21:37:14 / 修改时间：21:46:54" itemprop="dateCreated datePublished" datetime="2020-04-07T21:37:14+08:00">2020-04-07</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>2019年度个人所得税汇算清缴逐步展开，“个人所得税”也第一时间登上了微博热搜。您准备好了么？</p>
+<p>虽然之前税务总局曾经发文，年收入12万以下的纳税人可以免予汇算清缴。但实际来看，<strong>即使在年入12万以下的纳税人中，也有相当一部分人是符合退税条件的</strong>。<font color="red">如果这部分人不主动进行汇算清缴申报并申请退税，应退的税款是不会自己退回的</font>。因此，掌握自己是否能退税并及时申请，就非常重要了。</p>
+<a id="more"></a>
+<p>根据实际操作经验及理论分析，<u>在2019年的收入有以下特点的人，汇算清缴有可能产生退税</u>：</p>
+<ul>
+<li><strong>获得过劳务报酬、稿酬、特许权使用费的；</strong></li>
+<li><strong>在年初获得过年终奖金，且金额较平日工资较高的；</strong></li>
+<li><strong>年中开始工作或年中退休的——即2019年发工资时间不足12个月的；</strong></li>
+<li><strong>2019年跳槽了，且跳槽前后工资变动较大的；</strong></li>
+<li><strong>专项附加扣除没有在工资单位扣除、而是选择汇算清缴时自行扣除的；</strong></li>
+<li><strong>有符合条件的大病医疗专项附加扣除的；</strong></li>
+<li><strong>有符合扣除条件的捐赠的。</strong></li>
+</ul>
+<p>由于汇算清缴和年中预缴时的个税算法不同，有上述情况的朋友有可能取得退税。其中具体的原因和政策规定，我想大家并不是很想听，也不是三言两语能说清楚的。但是没关系，这不影响我们操作退税！个人所得税app有强大的数据归集和自动计税功能，我们只需要懂得各个操作细节，就可以做到应退尽退啦！</p>
+<p>那么下面我们就打开个人所得税app，开始操作吧——</p>
+<font color="ligreen">1.打开个人所得税app，现在右下角的“个人中心”选项卡中<strong>登录</strong>，然后回到首页，点击<strong>“综合所得年度汇算”</strong>。</font>
+
+<font color="red">不登录就点击可能报错，如果忘记密码，可用绑定手机找回。</font>
+
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\1.webp" style="zoom: 50%;"></p>
+<font color="ligreen">2.在填报方式中，选择<strong>“使用已申报数据填写”</strong>，然后点击<strong>开始申报</strong>。</font>
+
+<p> 这个模式可以导入税务系统已有的代扣记录，个人可以在此基础上进行新增。建议使用这种方式。自行填写方式则相当于一张空白的申报表，所有信息全部由自己填写。这样填写工作量会非常大，一般不推荐。</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\2.webp" style="zoom: 50%;"></p>
+<p>图上红圈右上角有“查看收入纳税数据”入口，可以进入查看2019年哪些单位给你申报了四项综合所得，<font color="red">如果其中有你根本没有服务过的奇怪公司也给你填了工资收入，请一定要进行申诉，否则可能影响你的应交税款金额。</font></p>
+<font color="ligreen">3.进入须知页面，认真阅读，点击<strong>我已知晓并同意</strong>。</font>
+
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\3.png" style="zoom: 80%;"></p>
+<font color="ligreen">4.基本信息的核对和<strong>汇缴地</strong>选择，确认无误后选择下一步。</font>
+
+<p>有多个工作单位的（包括跳槽和两个单位同时发工资的）可以任选其一作为汇缴地，不影响税款计算和退税。自由职业者则选择自己的居住地为汇缴地。</p>
+<font color="red">注意：此处发现任职受雇单位出现不认识的奇怪公司的，请及时申诉。</font>
+
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\4.webp" style="zoom: 50%;"></p>
+<font color="ligreen">5.这里就来到了我们申报的<strong>重头戏——收入和税前扣除模块</strong>了。</font>
+
+<p>我们先通过一张长图，总览一下这个步骤里会展示的信息：</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\5.webp" style="zoom: 50%;"></p>
+<p>可以看到，这个页面里包含了全年的税款计算信息。2019年度在预扣预缴阶段，已申报的收入、减除费用、各项扣除等项目都罗列得非常清楚。这是系统自动导入的，但有时候可能并不完整。我们就分几个部分来看看，如何对标准申报部分进行修改和补充。</p>
+<p><strong><em>提示：以下的有些操作只适用于一部分纳税人，如果不适用于你，请跳过。</em></strong></p>
+<font color="ligreen"><strong>5-1.收入</strong></font>
+
+<ul>
+<li><font color="ligreen">劳务报酬和稿酬收入信息导入</font>
+
+</li>
+</ul>
+<p>部分年内有劳务报酬和稿酬的朋友进入这个页面，会发现劳务报酬和稿酬的收入均为0。这是因为目前系统还不支持带出劳务报酬和稿酬信息，需要自行操作导入。<u>预缴环节的劳务报酬和稿酬税率都是固定20%，而综合所得的税率是3%起的累进税率</u>。<font color="red">因此，如果你的劳务报酬和稿酬收入较多，单笔经常超过1000元，建议自行导入，能够退税的可能性比较大。</font></p>
+<p>具体的添加操作如下：</p>
+<p>点击劳务报酬，进入详情页面↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\6.webp" style="zoom: 50%;"></p>
+<p>选择劳务报酬，点击右上角“新增”，选择查询导入↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\7.webp" style="zoom: 50%;"></p>
+<p>稍等片刻，系统会将本年度已经代扣的劳务报酬收入导入，如果自己核对发现有遗漏，可以再次点击新增，选择手工填写进行补充。</p>
+<p>稿酬所得的导入同理。</p>
+<p>填写完成后点击返回，会发现申报界面中的各项信息会实时发生变动。</p>
+<ul>
+<li><font color="ligreen">全年一次性奖金收入计税方式选择</font>
+
+</li>
+</ul>
+<p>根据财税〔2018〕164号的规定，当取得全年一次性奖金即我们常说的年终奖时，单位代扣税款可以选择两种方式，作为工资薪金的一部分并入综合所得，或者单独计算一次性奖金的税款。这两种方式的区别在于，一次性奖金这部分金额能不能享受6万元的减除费用，专项附加扣除、其他扣除等费用扣除。<font color="red">哪种方式交税较少，要结合全年的综合所得收入来判断。</font><strong>一般而言，对于中低收入人群，将全年一次性奖金并入综合所得计算是比较划算的。</strong></p>
+<p><strong>那么怎么判断自己2019年有没有全年一次性奖金，是选择并入综合所得计算交税较少，还是保持独立计税交税较少呢？</strong>不用担心，我们可以直接利用个税app的自动计算来判断。</p>
+<p>还是在收入详情页面，选择工资薪金，如果在界面中有“奖金计税方式选择”这个入口，则表示你的代扣记录中，有一笔全年一次性奖金。点击进去，就可以选择并入综合所得计算或者独立计算。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\8.webp" style="zoom: 50%;"></p>
+<p>选好之后点击返回，在收入和税前扣除模块，点击下一步，进入税款计算模块，即可看到当前方案下的税款计算金额。↓</p>
+<font color="red">建议将其他的收入、扣除信息核对无误之后再点击试算，这样结果才准确。</font>
+
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\9.webp" style="zoom: 50%;"></p>
+<p>记下当前方案的应退税额之后，点击右上角返回到收入和税前扣除，再次点击工资薪金—奖金计税方式选择，选择第二个方案。然后重复上述操作。这样就可以得到奖金并入综合所得和独立计算两种方案下的税款分别是多少。</p>
+<p><strong><font color="ligreen">5-2 费用、免税收入和税前扣除</font></strong></p>
+<p>这部分中，费用、免税收入和减除费用是根据四项所得的收入额来自动生成的，不能够手动更改。而专项扣除、专项附加扣除、其他扣除以及捐赠则都可以进行添加或修改。我们分项看看如何操作：</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\10.webp" style="zoom:50%;"></p>
+<ul>
+<li><font color="ligreen">专项扣除</font>
+
+</li>
+</ul>
+<p><strong>专项扣除其实就是我们常说的三险一金。</strong>工伤和生育保险由用人单位全额负担，不从个人工资中扣除，因此不是五险而是三险。因此在申报中，我们可以手动添加缴纳记录：</p>
+<p>将专项扣除展开后，点击“基本养老保险”进入详情页，点击新增↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\11.webp" style="zoom:50%;"></p>
+<p>在新增界面中，按实际情况填写自己缴纳的五险一金情况，数据要和社保及公积金系统查询到的数据吻合。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\12.webp" style="zoom:50%;"></p>
+<font color="red">税款所属期可以不改，一次性填写全年缴纳的三险一金数额。由于是全年计税，不影响税款计算。</font>
+
+<ul>
+<li><font color="ligreen">专项附加扣除</font>
+
+</li>
+</ul>
+<p>专项附加扣除我想大部分朋友在2019年年初进行过填写，年末也进行过确认。但有的朋友再次检查，可能发现<strong>有误</strong>；或者汇算清缴时，需要<strong>调整</strong>扣除的分配方式（比如发现子女教育支出由配偶100%扣除减的税更多）；还有在2019年符合享受大病医疗专项附加扣除的条件……这些情况都涉及到需要修改专项附加扣除。具体操作如下：</p>
+<p>点击专项附加扣除，进入详情界面，点击右上角“新增”。此时会出现提示，需要跳转到专项附加扣除界面，点击保存并继续↓</p>
+<font color="red">不用担心，系统会保存目前的申报进程，修改完专项附加扣除可以继续填报。</font>
+
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\13.png" style="zoom:50%;"></p>
+<p>跳转到专项附加扣除界面后，根据自身情况进行填写和修改。保存成功后返回首页，继续进行汇算清缴申报。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\14.webp" style="zoom:50%;"></p>
+<p>再次从首页进入综合所得年度汇算，系统会检测已保存数据。点击“继续填报”即可提取之前的申报记录↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\15.webp" style="zoom:50%;"></p>
+<ul>
+<li><font color="ligreen">其他扣除项目</font>
+
+</li>
+</ul>
+<p><strong>商业健康险、税延养老保险</strong>可能有同事自行购买了符合条件的相关产品，可以点击进去，进行相应的填写。其中，商业健康险是全国都有的政策，判断自己买的是不是能扣，只需查看保单上是否有“税收优惠码”。而税延养老保险目前还只在小部分地区试点，所以大部分朋友是享受不到的，是否符合，看是否有“税延养老账户编号”。</p>
+<p><strong>允许扣除的税费</strong>则是提供劳务时，有进行代开发票的纳税人，在代开环节缴纳的<u>印花税、城建税、教育费附加和地方教育费附加等</u>，可以作为费用扣除。但<font color="red">个税和增值税不能扣除</font>。</p>
+<p>由于其他扣除项目多种多样，这里就不一一介绍操作了。每个扣除项目后面都有一个小问号，有简明的解释，可以进行阅读判断自身是否有符合条件的扣除项目。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\16.webp" style="zoom:50%;"></p>
+<ul>
+<li><font color="ligreen">准予扣除的捐赠额</font>
+
+</li>
+</ul>
+<p>关于捐赠扣除，这里需要援引一下个人所得税法及实施条例的原文：</p>
+<blockquote>
+<p>个人将其所得对教育、扶贫、济困等公益慈善事业进行捐赠，捐赠额未超过纳税人申报的应纳税所得额百分之三十的部分，可以从其应纳税所得额中扣除；国务院规定对公益慈善事业捐赠实行全额税前扣除的，从其规定。个人将其所得对教育、扶贫、济困等公益慈善事业进行捐赠，是指个人将其所得通过中国境内的公益性社会组织、国家机关向教育、扶贫、济困等公益慈善事业的捐赠。</p>
+</blockquote>
+<p>举个例子：</p>
+<p>小明进行汇算清缴时，全年收入扣除各项费用和项目之后，应纳税所得额是3万元。如果没有捐赠，那么小明应该缴纳30000*3%=900元个税。</p>
+<p>但2019年，小明通过中国慈善总会捐赠给贫困山区1万元。</p>
+<p>情况1.假设这个捐赠是没有特殊规定的，小明2019年最多可以扣除3万的30%，即9000元的应纳税所得额。那么小明应该缴纳的个税就变成了(30000-9000)*3%=630元。</p>
+<p>情况2.假设这个捐赠有特殊规定可以全额扣除，小明应缴纳的个税就变为(30000-10000)*3%=600元。</p>
+<p>在捐赠扣除里面，有几个享受条件是大家必须注意的：</p>
+<ol>
+<li>必须通过中国境内的公益性社会组织、国家机关捐赠才可以享受。如果小明不是通过慈善总会，而是直接把钱塞到贫困户个人的手中，是不能扣除的。水滴筹之类的筹款平台，如果没有公益性社会组织参与，在这些平台的捐助我认为是不符合这个条件的。</li>
+<li>想要全额扣除，必须有相应的文件支持。比如本次对于新冠疫情的捐赠，财政部出台了财政部税务总局公告2020年第9号文件，明确可以全额扣除。</li>
+<li>必须是2019年期间进行的捐赠才能在本次汇算扣除。相信很多朋友在疫情期间都为湖北和武汉尽了自己的心意，这部分捐赠是2020年发生的，所以本次暂不能扣除，需要等到2021年汇算时才能扣除。</li>
+</ol>
+<p>如果有符合条件的同事，可以点击“准予扣除的捐赠额”进行填报。还有两个小tips：</p>
+<ol>
+<li>准予扣除的捐赠额除了在综合所得可以扣，其他的所得如偶然所得，股息红利所得，租赁所得等等都是可以扣除的。纳税人可以根据自身情况选择来分配在综合所得扣除的金额。比如小明在综合所得最多只能扣9000元，还有1000元的捐赠额，如果他有其他类型的所得，可以在其他类型所得里面继续扣除。</li>
+<li>当年的捐赠额必须在当年扣完，扣不完的第二年也不能使用了。</li>
+</ol>
+<p>具体的填报，请大家自行进入界面查看即可。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\17.webp" style="zoom:50%;"></p>
+<p><strong><font color="ligreen">6.税款计算</font></strong></p>
+<p>终于核对和填写完所有的收入和扣除项目了，我们的申报工作也完成了大半。点击下一步，进入税款计算步骤。此时可以看到按照综合所得算法，应交的税款、已预缴的税款及应该多退少补的金额。这些都是系统自动计算的，在前面的信息填写正确的情况下是不会错的。</p>
+<p>这里特别需要注意的是出现应补税额的情况。出现应补税额，通常情况是收入较高、有两个或以上单位使用“工资薪金所得”进行了税款代扣的。根据政策规定，<strong>如果综合所得收入不超过12万元，或应补税金额不超过400元，可免于办理汇算申报</strong>。<font color="red">换句话说，400元及以内小额的补税，只要不申报就免交！</font></p>
+<p><u>所以如果在左下角看到应补税额，且补税金额小于等于400元，请不要点击提交，直接退出app即可。</u></p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\18.webp" style="zoom:50%;"></p>
+<p>确认无误后点击<strong>提交申报</strong>，即可进入退税或补税环节。<font color="red">如果点击保存只是进入草稿箱，还不算正式提交申报哦！</font></p>
+<p>接下来会弹出声明窗口，点击“我已阅读并同意”，然后确认提交，成功后表示申报数据正式生成。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\19.webp" style="zoom:50%;"></p>
+<p>申报成功并可申请退税界面，点击申请退税可以进入退税申请环节。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\20.webp" style="zoom:50%;"></p>
+<p>需要补税界面，点击立即缴税可以进入税款缴纳环节。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\21.png" style="zoom:50%;"></p>
+<p><strong><font color="ligreen">7.退税/补税操作</font></strong></p>
+<p>点击退税或补税后，系统将跳转到退税/缴税功能。如果之前没有绑定本人银行卡，会跳出银行卡绑定提示。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\22.png" style="zoom:50%;"></p>
+<p>添加流程和微信支付宝绑定银行卡差不多，绑定成功之后按照系统提示一直按下一步/提交，就可以成功申请退税啦！</p>
+<p><strong><font color="ligreen">8.退税查询&amp;申报更正</font></strong></p>
+<p>退税需要经过税务机关审核，然后到国库进行退税处理，估计需要至少半个月的时间。在申请成功之后想要查看退税进度，可以通过app的<strong>服务—申报查询—已完成</strong>进行查询。↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\23.webp" style="zoom:50%;"></p>
+<p>查询界面，点击看详情↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\24.webp" style="zoom:50%;"></p>
+<p>可以查看申报详情和退税进度，发现有误可以修改↓</p>
+<p><img src="/2020/04/07/个税汇算清缴实操/C:/Users\willi\Desktop\Myblog\source\_posts\个税汇算清缴实操\25.webp" style="zoom:50%;"></p>
+<p>这就是整个综合所得汇算清缴的流程。你有没有成功退税呢？</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+
+
+    <div>
+      
+        
+<div class="my_post_copyright">
+  <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+  
+  <!-- JS库 sweetalert 可修改路径 -->
+  <script src="https://cdn.bootcss.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <p><span>本文标题:</span><a href="/2020/04/07/个税汇算清缴实操/">个税汇算清缴实操</a></p>
+  <p><span>文章作者:</span><a href="/" title="访问 William Li 的个人博客">William Li</a></p>
+  <p><span>发布时间:</span>2020年04月07日 - 21:37</p>
+  <p><span>最后更新:</span>2020年04月07日 - 21:46</p>
+  <p><span>原始链接:</span><a href="/2020/04/07/个税汇算清缴实操/" title="个税汇算清缴实操">https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/</a>
+    <span class="copy-path" title="点击复制文章链接"><i class="fa fa-clipboard" data-clipboard-text="https://williamlee0218.github.io/2020/04/07/个税汇算清缴实操/" aria-label="复制成功！"></i></span>
+  </p>
+  <p><span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" title="Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)">署名-非商业性使用-禁止演绎 4.0 国际</a> 转载请保留原文链接及作者。</p>  
+</div>
+<script> 
+    var clipboard = new Clipboard('.fa-clipboard');
+    $(".fa-clipboard").click(function(){
+      clipboard.on('success', function(){
+        swal({   
+          title: "",   
+          text: '复制成功',
+          icon: "success", 
+          showConfirmButton: true
+          });
+  });
+    });  
+</script>
+
+      
+    </div>
+
+
+
+    <div>
+      
+      	<div>
+    
+        <div style="text-align:center;color: #ccc;font-size:14px;">-------------本文结束<i class="fa fa-paw"></i>感谢您的阅读-------------</div>
+    
+</div>
+      
+    </div>
+
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Learning-Note/" rel="tag"><i class="fa fa-tag"></i> Learning Note</a>
+          
+        </div>
+      
+
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/31/修改ssh远程服务器端口及ss端口、密码/" rel="next" title="修改ssh远程服务器端口及ss端口、密码">
+                <i class="fa fa-chevron-left"></i> 修改ssh远程服务器端口及ss端口、密码
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC80Mjc3Ni8xOTMyMw=="></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/images/header.jpg" alt="William Li">
+            
+              <p class="site-author-name" itemprop="name">William Li</p>
+              <p class="site-description motion-element" itemprop="description">一点一滴，汇聚成海</p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">7</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">William Li</span>
+
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    
+  
+  <script color="0,0,255" opacity="0.5" zindex="-1" count="99" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/src/utils.js?v=7.0.0"></script>
+
+  <script src="/js/src/motion.js?v=7.0.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/src/schemes/muse.js?v=7.0.0"></script>
+
+
+
+  
+  <script src="/js/src/scrollspy.js?v=7.0.0"></script>
+<script src="/js/src/post-details.js?v=7.0.0"></script>
+
+
+
+  
+
+
+  <script src="/js/src/bootstrap.js?v=7.0.0"></script>
+
+
+
+  
+
+
+  
+    <script>
+  window.livereOptions = {
+    refer: '2020/04/07/个税汇算清缴实操/'
+  };
+  (function(d, s) {
+    var j, e = d.getElementsByTagName(s)[0];
+    if (typeof LivereTower === 'function') { return; }
+    j = d.createElement(s);
+    j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+    j.async = true;
+    e.parentNode.insertBefore(j, e);
+  })(document, 'script');
+</script>
+
+  
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  <style>
+    .copy-btn {
+      display: inline-block;
+      padding: 6px 12px;
+      font-size: 13px;
+      font-weight: 700;
+      line-height: 20px;
+      color: #333;
+      white-space: nowrap;
+      vertical-align: middle;
+      cursor: pointer;
+      background-color: #eee;
+      background-image: linear-gradient(#fcfcfc, #eee);
+      border: 1px solid #d5d5d5;
+      border-radius: 3px;
+      user-select: none;
+      outline: 0;
+    }
+
+    .highlight-wrap .copy-btn {
+      transition: opacity .3s ease-in-out;
+      opacity: 0;
+      padding: 2px 6px;
+      position: absolute;
+      right: 4px;
+      top: 8px;
+    }
+
+    .highlight-wrap:hover .copy-btn,
+    .highlight-wrap .copy-btn:focus {
+      opacity: 1
+    }
+
+    .highlight-wrap {
+      position: relative;
+    }
+  </style>
+  <script>
+    $('.highlight').each(function(i, e) {
+      var $wrap = $('<div>').addClass('highlight-wrap');
+      $(e).after($wrap);
+      $wrap.append($('<button>').addClass('copy-btn').append('复制').on('click', function(e) {
+        var code = $(this).parent().find('.code').find('.line').map(function(i, e) {
+          return $(e).text();
+        }).toArray().join('\n');
+        var ta = document.createElement('textarea');
+        var range = document.createRange(); //For Chrome
+        var sel = window.getSelection(); //For Chrome
+        var yPosition = window.pageYOffset || document.documentElement.scrollTop;
+        ta.style.top = yPosition + 'px'; //Prevent page scroll
+        ta.style.position = 'absolute';
+        ta.style.opacity = '0';
+        ta.value = code;
+        ta.textContent = code; //For FireFox
+        ta.contentEditable = true;
+        ta.readOnly = false;
+        document.body.appendChild(ta);
+        range.selectNode(ta);
+        sel.removeAllRanges();
+        sel.addRange(range);
+        ta.setSelectionRange(0, code.length);
+        var result = document.execCommand('copy');
+        
+          if (result) $(this).text('复制成功');
+          else $(this).text('复制失败');
+        
+        ta.blur(); //For iOS
+        $(this).blur();
+      })).on('mouseleave', function(e) {
+        var $b = $(this).find('.copy-btn');
+        setTimeout(function() {
+          $b.text('复制');
+        }, 300);
+      }).append(e);
+    })
+  </script>
+
+
+
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/text.js"></script>
+
+<!--崩溃欺骗-->
+<script type="text/javascript" src="\js\crash_cheat.js"></script>
+
+<script src="/live2dw/lib/L2Dwidget.min.js?0c58a1486de42ac6cc1c59c7d98ae887"></script><script>L2Dwidget.init({"model":{"jsonPath":"/live2dw/assets/wanko.model.json"},"display":{"position":"left","width":100,"height":200},"mobile":{"show":true},"log":false,"pluginJsPath":"lib/","pluginModelPath":"assets/","pluginRootPath":"live2dw/","tagMode":false});</script></body>
+</html>
